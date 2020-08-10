@@ -5,6 +5,9 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -4039,6 +4042,7 @@ input[type=button].btn-block {
   display: flex;
   flex-direction: column;
   padding-left: 0;
+
   margin-bottom: 0;
   list-style: none;
 }
@@ -4048,7 +4052,7 @@ input[type=button].btn-block {
 }
 .navbar-nav .dropdown-menu {
   position: static;
-  float: none;
+  float= none;
 }
 
 .navbar-text {
@@ -6193,6 +6197,13 @@ a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
   background-color: #dae0e5 !important;
+}
+
+.harsh{
+  background-color: #fdfffc !important;
+}
+.op{
+  background-color: #023e8a !important;
 }
 
 .bg-dark {
@@ -10064,6 +10075,9 @@ p.lead {
   font-size: 1rem;
 }
 
+.h { transition: all .2s ease-in-out; }
+.h:hover { transform: scale(1.2); }
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -10209,4 +10223,8 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.foot .p{
+  padding-left: 10;
 }
