@@ -7,7 +7,6 @@
  */
 
 
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -64,7 +63,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #e4e4e4;
+  background-color: #E4E6E7;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -268,7 +267,7 @@ textarea {
 }
 .dark-mode {
   background-color: #1b262c;
-  color: white;
+/*  color: black;*/
 }
 button,
 input {
@@ -4015,7 +4014,6 @@ input[type=button].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem;
   margin-top: 1%;
-  height: 97% !important;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -4057,7 +4055,6 @@ input[type=button].btn-block {
   position: static;
   float= none;
 }
-
 .navbar-text {
   display: inline-block;
   padding-top: 0.5rem;
@@ -4069,7 +4066,6 @@ input[type=button].btn-block {
   flex-grow: 1;
   align-items: center;
 }
-
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -10075,8 +10071,8 @@ p.lead {
   font-size: 1rem;
 }
 
-.h { transition: all .2s ease-in-out; }
-.h:hover { transform: scale(1.2); }
+.hov { transition: all .2s ease-in-out; }
+.hov:hover { transform: scale(1.2); }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
@@ -10129,6 +10125,7 @@ p.lead {
   }
 }
 .social-icons .social-icon {
+  transition: all .2s ease-in-out;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -10144,6 +10141,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
+  transform: scale(1.2);          
   background-color: #303960;
 }
 
@@ -10209,7 +10207,8 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
-  background-color: #ffffff !important;
+/*  background-color: #ffff !important; */
+  padding: 15px !important;
 }
 
 @media (min-width: 768px) {
