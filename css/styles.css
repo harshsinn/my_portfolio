@@ -3931,6 +3931,7 @@ input[type=button].btn-block {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
+  padding-top: 10% !important;
   margin-bottom: 0;
   list-style: none;
 }
@@ -4013,6 +4014,8 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  margin-top: 1%;
+  height: 97% !important;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -6198,7 +6201,6 @@ button.bg-light:hover,
 button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
-
 
 .op{
   background-color: #023e8a !important;
@@ -10199,7 +10201,7 @@ section.resume-section {
 
   display: flex;
   align-items: center;
-  padding-left: 1rem;
+  padding-left: 5% !important;
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -10207,6 +10209,7 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+  background-color: #ffffff !important;
 }
 
 @media (min-width: 768px) {
