@@ -476,7 +476,8 @@ mark,
   padding: 0.2em;
   background-color: #fcf8e3;
 }
-.project-cards{
+
+.project-cards {
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -10140,6 +10141,13 @@ p.lead {
     display: block;
   }
 }
+.card{
+  transition: all .2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
 .social-icons .social-icon {
   transition: all .2s ease-in-out;
   display: inline-flex;
