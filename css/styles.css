@@ -5,8 +5,13 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-.crd{
+
+.crd1{
   width: 15rem;
+  height: 15rem;
+}
+.crd{
+  width: 18rem;
   height: 15rem;
 }
  .skills-bar p
